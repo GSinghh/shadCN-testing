@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import comfortaa from "next/font/google";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -11,6 +12,12 @@ const geistMono = localFont({
     src: "./fonts/GeistMonoVF.woff",
     variable: "--font-geist-mono",
     weight: "100 900",
+});
+
+const comfortaa = localFont({
+    src: "",
+    variable: "",
+    weight: "",
 });
 
 export const metadata: Metadata = {

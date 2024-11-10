@@ -3,7 +3,7 @@
         {
             "id": "1",
             "title": "Nissan Skyline GT-R R34",
-            "image": "nissan_skyline_gtr_r34.jpg",
+            "image": "r34_gtr.jpg",
             "HP": 276,
             "description": "The legendary R34 GT-R, known for its performance and advanced technology.",
             "electric": false
@@ -11,7 +11,7 @@
         {
             "id": "2",
             "title": "Toyota Supra MK4",
-            "image": "toyota_supra_mk4.jpg",
+            "image": "supra_mk4.jpg",
             "HP": 320,
             "description": "Famous for its powerful 2JZ engine and iconic design.",
             "electric": false
@@ -19,7 +19,7 @@
         {
             "id": "3",
             "title": "Mazda RX-7 FD",
-            "image": "mazda_rx7_fd.jpg",
+            "image": "rx7_fd.jpg",
             "HP": 276,
             "description": "Renowned for its rotary engine and lightweight design.",
             "electric": false
@@ -27,15 +27,15 @@
         {
             "id": "4",
             "title": "Honda NSX",
-            "image": "honda_nsx.jpg",
+            "image": "nsx.jpg",
             "HP": 290,
             "description": "A supercar with everyday usability, featuring a mid-engine layout.",
             "electric": false
         },
         {
             "id": "5",
-            "title": "Mitsubishi Lancer Evolution VI",
-            "image": "mitsubishi_evo_vi.jpg",
+            "title": "Mitsubishi Lancer Evolution IX",
+            "image": "evo_ix.jpg",
             "HP": 276,
             "description": "A rally-bred car with advanced all-wheel-drive technology.",
             "electric": false
@@ -43,7 +43,7 @@
         {
             "id": "6",
             "title": "Subaru Impreza WRX STI 22B",
-            "image": "subaru_impreza_wrx_sti_22b.jpg",
+            "image": "wrx_sti_22b.jpg",
             "HP": 280,
             "description": "Limited edition model celebrating Subaru's rally success.",
             "electric": false
@@ -51,7 +51,7 @@
         {
             "id": "7",
             "title": "Tesla Model S",
-            "image": "tesla_model_s.jpg",
+            "image": "model_s.jpg",
             "HP": 1020,
             "description": "\"A high-performance electric vehicle known for its long range and cutting-edge technology.",
             "electric": true
@@ -59,7 +59,7 @@
         {
             "id": "8",
             "title": "Honda Civic Type R EK9",
-            "image": "honda_civic_type_r_ek9.jpg",
+            "image": "civic_type_r_ek9.jpg",
             "HP": 182,
             "description": "The first Civic Type R, known for its high-revving engine and lightweight chassis.",
             "electric": false
@@ -67,7 +67,7 @@
         {
             "id": "9",
             "title": "Nissan Silvia S15",
-            "image": "nissan_silvia_s15.jpg",
+            "image": "silvia_s15.jpg",
             "HP": 250,
             "description": "\"A popular choice for drifting, featuring a balanced chassis and turbocharged engine.\"",
             "electric": false
