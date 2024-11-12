@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import comfortaa from "next/font/google";
 import "./globals.css";
+import { Comfortaa } from "next/font/google";
 
 const geistSans = localFont({
     src: "./fonts/GeistVF.woff",
@@ -14,10 +14,9 @@ const geistMono = localFont({
     weight: "100 900",
 });
 
-const comfortaa = localFont({
-    src: "",
-    variable: "",
-    weight: "",
+const comfortaa = Comfortaa({
+    weight: ["300"],
+    subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
@@ -32,9 +31,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
+            <body className={`${comfortaa}`}>
                 <nav>
                     <h1>My Favorite Vehicles</h1>
                 </nav>
